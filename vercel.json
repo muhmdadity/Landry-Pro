@@ -1,0 +1,11 @@
+{
+  "services": {
+    "app": {
+      "runtime": "container",
+      "source": "Dockerfile"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/app" }
+  ]
+}
