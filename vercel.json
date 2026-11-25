@@ -2,7 +2,7 @@
   "services": {
     "app": {
       "runtime": "container",
-      "source": "Dockerfile"
+      "entrypoint": "Dockerfile"
     }
   },
   "rewrites": [
